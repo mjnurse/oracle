@@ -1,0 +1,6 @@
+cd /c/MJN/github/oracle
+git add .
+git status
+read -p "Press a key to continue"
+git commit -m "Various"
+git push origin master
