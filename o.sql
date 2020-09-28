@@ -19,7 +19,7 @@
 **    mjnurse.uk - 2019
 */
 
--- help_line: Lists schema objects 
+-- desc_line: Lists schema objects 
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE
