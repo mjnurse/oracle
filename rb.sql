@@ -1,20 +1,23 @@
-/**
-*** NAME
-***    rb - A script to show rollback in use.
-***
-*** USAGE
-***    @rb [<sid>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    A script to show rollback in use.  Optional filter on SID.
-***
-*** AUTHOR
-***    mjnurse.uk - 2011
-**/
+/*
+** NAME
+**    rb - A script to show rollback in use.
+**
+** USAGE
+**    @rb [<sid>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    A script to show rollback in use.  Optional filter on SID.
+**
+** AUTHOR
+**    mjnurse.dev - 2011
+*/
+
+-- help_line: Show rollback in use: @rb [<sid>]
+-- desc_line: Show rollback in use
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

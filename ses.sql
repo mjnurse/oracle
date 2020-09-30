@@ -1,20 +1,23 @@
-/**
-*** NAME
-***    ses - Returns a list of active sessions.
-***
-*** USAGE
-***    @ses [options] [<SID|username|os-name>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    This script returns a list of active sessions which can be filters by SID, username or os-name.
-***
-*** AUTHOR
-***    mjnurse.uk - 2010
-**/
+/*
+** NAME
+**    ses - Returns a list of active sessions.
+**
+** USAGE
+**    @ses [options] [<SID|username|os-name>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    This script returns a list of active sessions which can be filters by SID, username or os-name.
+**
+** AUTHOR
+**    mjnurse.dev - 2010
+*/
+
+-- help_line: Returns a List of Active Sessions: @ses [options] [<SID|username|os-name>]
+-- desc_line: Returns a List of Active Sessions
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

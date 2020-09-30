@@ -1,23 +1,26 @@
-/**
-*** NAME
-***    sel - Select Statement Generation Script.
-***
-*** USAGE
-***    @sel [options] <table_name>
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    A script to generate a SELECT statement for all columns in the specified table.  If a table owner
-***    is not specified, the script checks for the table in the users current schema first, followed by
-***    SYS. If the table does not exist in either schema, the table owned by the user with the
-***    alphabetically greatest name is used.
-***
-*** AUTHOR
-***    mjnurse.uk - 2010
-**/
+/*
+** NAME
+**    sel - Select Statement Generation Script.
+**
+** USAGE
+**    @sel [options] <table_name>
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    A script to generate a SELECT statement for all columns in the specified table.  If a table
+**    owner is not specified, the script checks for the table in the users current schema first,
+**    followed by SYS. If the table does not exist in either schema, the table owned by the user
+**    with the alphabetically greatest name is used.
+**
+** AUTHOR
+**    mjnurse.dev - 2010
+*/
+
+-- help_line: Generate Select Statement: @sel [options] <table_name>
+-- desc_line: Generate Select Statement
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

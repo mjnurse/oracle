@@ -16,9 +16,10 @@
 **    This script list objects.
 **
 ** AUTHOR
-**    mjnurse.uk - 2019
+**    mjnurse.dev - 2019
 */
 
+-- help_line: Lists schema objects: @o [options] [<filter>]
 -- desc_line: Lists schema objects 
 
 SET TERM OFF DEF ON

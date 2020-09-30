@@ -1,16 +1,29 @@
 /*
-** A script to display the size of objects visible for the current user in the data dictionary.
+** NAME
+**    size - Display the size of objects visible for the current user in the data dictionary.
 **
-** Usage: @size [-t <type>] [-o <owner>] [-n <top n results>] <object_ name> (wildcards allowed in all parameters)
+** USAGE
+**    @size [options] <object_ name> (wildcards allowed in all parameters)
 **
-** A script to display the size of object filtered on owner, type and name.  The number of records returned 
-** can be limited to 'top-n' records.
+** OPTIONS
+**    -t <type>
+**       Object type.
 **
-** mjnurse.uk - 2010
+**    -o <owner>
+**       Object owner.
+**
+**    -n <num>
+**       Show the top <num> results
+**
+** DESCRIPTION
+**    This script list objects.
+**
+** AUTHOR
+**    mjnurse.dev - 2010
 */
 
--- Wrapper version: 7
--- Publish YN: Y
+-- help_line: Display the size of objects: @size [options] <object_ name>
+-- desc_line: Display the size of objects.
 
 DEFINE script_name="size.sql"
 

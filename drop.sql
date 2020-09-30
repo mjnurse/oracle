@@ -1,21 +1,24 @@
-/**
-*** NAME
-***    drop - A script to generate a list of drop object statements.
-***
-*** USAGE
-***    @drop [options] [<filter_1>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    This script generates a list of DROP object statements for the current user.  A filter can be
-***    passed.
-***
-*** AUTHOR
-***    mjnurse.uk - 2019
-**/
+/*
+** NAME
+**    drop - A script to generate a list of drop object statements.
+**
+** USAGE
+**    @drop [options] [<filter_1>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    This script generates a list of DROP object statements for the current user.  A filter can be
+**    passed.
+**
+** AUTHOR
+**    mjnurse.dev - 2019
+*/
+
+-- help_line: Generate a list of object drop statements: @drop [options] [<filter_1>]
+-- desc_line: Generate a list of object drop statements
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

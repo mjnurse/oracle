@@ -1,14 +1,21 @@
 /*
-** Transparent Explain Plan Utility for SQLPlus. 
-** 
-** Usage: @xp
+** NAME
+**    xp - Transparent Explain Plan Utility for SQLPlus. 
 **
-** Reports the execution plan of the current SQL buffer (i.e. the most recent SQL statement to be run, \
-** edited, fetched etc (not necessarily run), and then places it back in the buffer, as far as possible \
-** leaving everything the way it was. 
+** USAGE
+**    @xp
 **
-** mjnurse.uk 2004
+** DESCRIPTION
+**    Reports the execution plan of the current SQL buffer (i.e. the most recent SQL statement
+**    to be run, edited, fetched etc (not necessarily run), and then places it back in the
+**    buffer, as far as possible leaving everything the way it was. 
+**
+** AUTHOR
+**    mjnurse.dev - 2004
 */
+
+-- help_line: Transparent Explain Plan Utility for SQLPlus: @xp
+-- desc_line: Transparent Explain Plan Utility for SQLPlus
  
 -- NOTE: Uses OS-specific host commands 'TYPE' and 'DEL'. For Linux replace with 'cat' and 'rm'. 
 

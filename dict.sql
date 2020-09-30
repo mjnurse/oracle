@@ -1,20 +1,23 @@
-/**
-*** NAME
-***    dict - Query the data dictionary.
-***
-*** USAGE
-***    @dict [options] [<search-string>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    Query the data dictionary.
-***
-*** AUTHOR
-***    mjnurse.uk - 2019
-**/
+/*
+** NAME
+**    dict - Query the data dictionary.
+**
+** USAGE
+**    @dict [options] [<search-string>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    Query the data dictionary.
+**
+** AUTHOR
+**    mjnurse.dev - 2019
+*/
+
+-- help_line: Query the data dictionary: @dict [options] [<search-string>]
+-- desc_line: Query the data dictionary
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

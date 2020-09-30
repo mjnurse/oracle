@@ -1,19 +1,22 @@
-/**
-*** NAME
-***    login - SQLPLUS Login Script
-***
-*** USAGE
-**     Called by default when SQLPlus logs in, or @login.sql
-***
-*** OPTIONS
-***    None.
-*** 
-*** DESCRIPTION
-***    Description: Configures the SQLPLUS session.
-***
-*** AUTHOR
-***    mjnurse.uk - 2005
-**/
+/*
+** NAME
+**    login - SQLPLUS Login Script
+**
+** USAGE
+**    Called by default when SQLPlus logs in, or @login.sql
+**
+** OPTIONS
+**    None.
+** 
+** DESCRIPTION
+**    Description: Configures the SQLPLUS session.
+**
+** AUTHOR
+**    mjnurse.dev - 2005
+*/
+
+-- help_line: SQLPLUS Login Script
+-- desc_line: SQLPLUS Login Script
 
 SET TERM OFF
 SAVE buf_login.tmp REPLACE

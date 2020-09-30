@@ -1,20 +1,23 @@
-/**
-*** NAME
-***    sr - Shows currently running SQL.
-***
-*** USAGE
-***    @sr [options]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    This script show the currently running SQL.
-***
-*** AUTHOR
-***    mjnurse.uk - 2010
-**/
+/*
+** NAME
+**    sr - Shows currently running SQL.
+**
+** USAGE
+**    @sr [options]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    This script show the currently running SQL.
+**
+** AUTHOR
+**    mjnurse.dev - 2010
+*/
+
+-- help_line: Show Currently Running SQL: @sr
+-- desc_line: Show Currently Running SQL
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

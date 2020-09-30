@@ -1,22 +1,25 @@
-/**
-*** NAME
-***    role - Query role and role privileges. 
-***
-*** USAGE
-***    @role [options] [<role name - wildcards allowed>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-***    -p
-***       Show privilege details.
-*** 
-*** DESCRIPTION
-***    Query role and role privileges. 
-***
-*** AUTHOR
-***    mjnurse.uk - 2019
-**/
+/*
+** NAME
+**    role - Query role and role privileges. 
+**
+** USAGE
+**    @role [options] [<role name - wildcards allowed>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+**    -p
+**       Show privilege details.
+** 
+** DESCRIPTION
+**    Query role and role privileges. 
+**
+** AUTHOR
+**    mjnurse.dev - 2019
+*/
+
+-- help_line: Query Role and Role Privileges: @role [options] [<role name - wildcards allowed>]
+-- desc_line: Query Role and Role Privileges
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

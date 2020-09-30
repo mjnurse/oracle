@@ -1,0 +1,1 @@
+$TYPE %SQLPATH%\.h.out

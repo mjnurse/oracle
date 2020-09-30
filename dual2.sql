@@ -1,25 +1,30 @@
-/**
-*** NAME
-***    dual2 - Creates an extended version of dual.
-***
-*** USAGE
-***    @dual2
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    Returning:
-***    -  Number (Num - Range 1..4000), 
-***    -  Character (chr - A..Z repeats),
-***    -  Word (word - consecutive words from the lorem ipsum phrase - repeats),
-***    -  String (string - increasing length string - using characters from the lorem ipsum - no spaces),
-***    -  Sentence (sentence - using full words from lorem ipsum.  Sentence shorter than length - Num).
-***
-*** AUTHOR
-***    mjnurse.uk - 2019
-**/
+/*
+** NAME
+**    dual2 - Creates an extended version of dual.
+**
+** USAGE
+**    @dual2
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    Returning:
+**    -  Number (Num - Range 1..4000), 
+**    -  Character (chr - A..Z repeats),
+**    -  Word (word - consecutive words from the lorem ipsum phrase - repeats),
+**    -  String (string - increasing length string - using characters from the lorem ipsum -
+**       no spaces),
+**    -  Sentence (sentence - using full words from lorem ipsum.  Sentence shorter than length -
+**       Num).
+**
+** AUTHOR
+**    mjnurse.dev - 2019
+*/
+
+-- help_line: Create an extended version of dual: @dual
+-- desc_line: Create an extended version of dual
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

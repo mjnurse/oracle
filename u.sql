@@ -1,24 +1,27 @@
-/**
-*** NAME
-***    u - Show database user schema details.
-***
-*** USAGE
-***    @u [options] <username - wildcards allowed>
-***
-*** OPTIONS
-*** 
-***    -h|--help
-***       Show help text.
-***
-***    -a
-***       Show all users including Oracle managed users.
-*** 
-*** DESCRIPTION
-***    Show database user/schema details.
-***
-*** AUTHOR
-***    mjnurse.uk - 2019
-**/
+/*
+** NAME
+**    u - Show database user schema details.
+**
+** USAGE
+**    @u [options] <username - wildcards allowed>
+**
+** OPTIONS
+** 
+**    -h|--help
+**       Show help text.
+**
+**    -a
+**       Show all users including Oracle managed users.
+** 
+** DESCRIPTION
+**    Show database user/schema details.
+**
+** AUTHOR
+**    mjnurse.dev - 2019
+*/
+
+-- help_line: Show User Schema Details: @u [options] <username - wildcards allowed>
+-- desc_line: Show User Schema Details
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

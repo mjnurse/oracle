@@ -13,10 +13,11 @@
 **    This script count records in a table with an option group by column list.
 **
 ** AUTHOR
-**    mjnurse.uk - 2010
+**    mjnurse.dev - 2010
 */
 
--- help_line: Count records in a table
+-- help_line: Count records in a table: @c <table_name> [<group by column list (no spaces)>]
+-- desc_line: Count records in a table
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE

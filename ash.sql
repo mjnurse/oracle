@@ -1,20 +1,23 @@
-/**
-*** NAME
-***    ash - Shows the status of active sessions in the last n minutes (default 10).
-***
-*** USAGE
-***    @ash [<number minutes history (default:10)>]
-***
-*** OPTIONS
-***    -h|--help
-***       Show help text.
-*** 
-*** DESCRIPTION
-***    This scripts shows the status of active sessions in the last n minutes.
-***
-*** AUTHOR
-***    mjnurse.uk - 2011
-**/
+/*
+** NAME
+**    ash - Shows the status of active sessions in the last n minutes (default 10).
+**
+** USAGE
+**    @ash [<number minutes history (default:10)>]
+**
+** OPTIONS
+**    -h|--help
+**       Show help text.
+** 
+** DESCRIPTION
+**    This scripts shows the status of active sessions in the last n minutes.
+**
+** AUTHOR
+**    mjnurse.dev - 2011
+*/
+
+-- help_line: Show status of active sessions: @ash [<number minutes history (default:10)>]
+-- desc_line: Show status of active sessions in last n mins
 
 SET TERM OFF DEF ON
 STORE SET sqlplus_settings.sql REPLACE
