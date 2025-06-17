@@ -1,7 +1,0 @@
-a - ash.sql:       Show status of active sessions: @ash [<number minutes history (default:10)>]
-c - c.sql:         Count records in a table: @c <table_name> [<group by column list (no spaces)>]
-    cls.sql:       Clear screen: @cls
-d - dict.sql:      Query the data dictionary: @dict [options] [<search-string>]
-    drop.sql:      Generate a list of object drop statements: @drop [options] [<filter_1>]
-    dual2.sql:     Create an extended version of dual: @dual
-o - o.sql:         Lists schema objects: @o [options] [<filter>]
